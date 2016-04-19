@@ -15,7 +15,7 @@
         "efeencheung/dm-theme-bundle": "~0.0"
     },
     "autoload": {
-        "psr-4": { "Dm\\Bundle\\Generator\\": "" }
+        "psr-4": { "Dm\\Bundle\\GeneratorBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
