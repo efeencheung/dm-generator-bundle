@@ -9,6 +9,12 @@
             "email": "261969254@qq.com"
         }
     ],
+    "repositories": [
+        {   
+            "type": "vcs",
+            "url": "https://github.com/efeencheung/dm-admin-bundle"
+        }   
+    ],
     "require": {
         "php": ">=5.3.9",
         "symfony/framework-bundle": "2.8.*",
