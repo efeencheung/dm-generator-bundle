@@ -205,7 +205,7 @@ EOT
             'prefix: /prefix/, /prefix/new, ...).',
             '',
         ));
-        $prefix = $questionHelper->ask($input, $output, new Question($questionHelper->getQuestion('路由前缀', '/'.$prefix), '/'.$prefix));
+        $prefix = $questionHelper->ask($input, $output, new Question($questionHelper->getQuestion('路由前缀', '/admin/'.$prefix), '/admin/'.$prefix));
         $input->setOption('route-prefix', $prefix);
 
         // summary
